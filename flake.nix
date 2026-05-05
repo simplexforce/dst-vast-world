@@ -1,5 +1,5 @@
 {
-  description = "";
+  description = "DST Vast World — Don't Starve Together worldgen mod for maps beyond vanilla size presets";
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
@@ -31,13 +31,6 @@
           };
         in
         {
-          # packages.default =
-          #   (pkgs.lean.buildLeanPackage {
-          #     name = "lambda-genesis";
-          #     roots = [ "Main" ];
-          #     src = pkgs.lib.cleanSource ./.;
-          #   }).executable;
-
           devShells.default = pkgs.mkShell {
             packages = with pkgs; [
               # Lua tools

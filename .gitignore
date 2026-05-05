@@ -1,0 +1,16 @@
+.lake
+
+.draft
+
+# Environment files
+.env
+.env.local
+
+# Nix
+result
+
+# direnv
+.direnv
+
+# Local reference files copied from the game or workshop mods
+.local-reference-files/
